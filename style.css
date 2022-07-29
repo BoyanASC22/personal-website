@@ -1,0 +1,37 @@
+#navbar {
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+#First_Page {
+    font-family: Helvetica;
+    background-color: #272D33;
+    padding: 5px;
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    border-radius: 25px; 
+}
+
+
+
+.items:hover {
+    background-color: gray;
+    color: orange; 
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 25px; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
