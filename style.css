@@ -13,12 +13,12 @@
     background-color: #272D33;
     padding: 5px;
     margin-top: 20px; 
-    display: flex; 
-    justify-content: space-evenly; 
+    margin-left: 200px;
+    margin-right: 200px;
     border-radius: 25px; 
+    display: flex;
+    justify-content: space-evenly;
 }
-
-
 
 .items:hover {
     background-color: gray;
@@ -34,4 +34,105 @@ a {
     text-align: center;
     text-decoration: none;
     width: 20%;
+}
+
+.Fun_Facts {
+    background-color: #627baf; 
+    font-family: Helvetica;
+    padding: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.fun_facts_list {
+    margin-right: 25px;
+}
+
+div {
+    border-radius: 20px;
+}
+
+.sports_images {
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#First_Page_Body {
+    display: flex;
+    justify-content: center;
+}
+
+.My_Picture {
+    margin-left: 20px;  
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #FCA311;
+    padding: 163px 50px;
+    
+}
+
+#Me {
+    width: 300px;
+}
+
+h2 {
+    text-align: center; 
+}
+
+.Prospects {
+    background-color: #E5E5E5; 
+    font-family: Helvetica;
+    padding: 5px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.prospects_list {
+    margin-right: 25px;
+}
+
+#Second_Page_Body {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Extracurriculars {
+    background-color: #581845;
+    padding: auto;
+}
+
+#HSDLAS {
+    width: 700px;
+    height: 300px;
+}
+.School {
+    background-color: #900C3F;
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 700px;
+}
+
+.School_text{
+    font-size: 150%;
+    font-family: Helvetica; 
+}
+
+#MUN {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.Extracurriculars_text {
+    font-size: 150%;
+    font-family: Helvetica;
 }
